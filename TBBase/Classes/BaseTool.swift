@@ -12,6 +12,12 @@ public class BaseTool {
         let string = "2222"
         return string;
     }
+    
+    public class func getBString() -> String {
+        let string = "BBBBB"
+        return string;
+    }
+    
 }
 
 
