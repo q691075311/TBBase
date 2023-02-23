@@ -1,0 +1,16 @@
+PODS:
+  - TBBase (0.1.0)
+
+DEPENDENCIES:
+  - TBBase (from `../`)
+
+EXTERNAL SOURCES:
+  TBBase:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TBBase: df8ff4858cd94b1d08880ba91807d16a01c32b36
+
+PODFILE CHECKSUM: e22d8222906f2a0b5d56fb346ba5bb0dde040091
+
+COCOAPODS: 1.11.3

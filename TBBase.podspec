@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TBBase'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TBBase.'
+  s.summary          = 'TBBase基础库'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/691075311@qq.com/TBBase'
+  s.homepage         = 'https://github.com/q691075311/TBBase.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '691075311@qq.com' => '691075311@qq.com' }
-  s.source           = { :git => 'https://github.com/691075311@qq.com/TBBase.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/q691075311/TBBase.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'

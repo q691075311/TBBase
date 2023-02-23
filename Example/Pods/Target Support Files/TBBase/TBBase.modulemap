@@ -1,0 +1,6 @@
+framework module TBBase {
+  umbrella header "TBBase-umbrella.h"
+
+  export *
+  module * { export * }
+}
