@@ -9,7 +9,8 @@ import Foundation
 
 public class BaseTool {
     public class func getAString() -> String {
-        return "222222";
+        let string = "2222"
+        return string;
     }
 }
 
