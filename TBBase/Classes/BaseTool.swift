@@ -6,8 +6,6 @@
 //
 
 import Foundation
-import RxCocoa
-import RxSwift
 
 public class BaseTool {
     public class func getAString() -> String {
