@@ -1,6 +1,0 @@
-framework module Pods_TBBase_Example {
-  umbrella header "Pods-TBBase_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}
