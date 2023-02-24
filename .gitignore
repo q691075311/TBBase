@@ -14,6 +14,7 @@ yarn.lock
 */bundle_*.bundle
 Bundles
 Libs
+Example/Pods/
 
 ## Build generated
 build/
@@ -42,5 +43,3 @@ xcuserdata/
 *.dSYM.zip
 *.dSYM
 *.xcscheme
-
-
