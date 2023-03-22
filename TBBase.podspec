@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TBBase'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'TBBase基础库'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/tbLibs/TBBase.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'TBBase/Classes/**/*'
   
@@ -44,4 +44,6 @@ TODO: Add long description of the pod here.
   s.dependency 'RxSwift'
   s.dependency 'RxCocoa'
   s.dependency 'Moya'
+  s.dependency 'SVGKit'
+  
 end
