@@ -25,36 +25,6 @@ public extension String {
         return formatter.string(fromByteCount: Int64(self) ?? 0)
     }
     
-    /// 字符串转字典
-    /// - Returns: AnyHashable  Dic
-    func toDictionary() -> [AnyHashable : Any] {
-        var result = [AnyHashable : Any]()
-        guard !self.isEmpty else { return result }
-        guard let dataSelf = self.data(using: .utf8) else {
-            return result
-        }
-        if let dic = try? JSONSerialization.jsonObject(with: dataSelf,
-                           options: .mutableContainers) as? [AnyHashable : Any] {
-            result = dic
-        }
-        return result
-    }
-    
-    /// 字符串转字典
-    /// - Returns: String Dic
-    func toDictionary() -> [String : Any] {
-        var result = [String : Any]()
-        guard !self.isEmpty else { return result }
-        guard let dataSelf = self.data(using: .utf8) else {
-            return result
-        }
-        if let dic = try? JSONSerialization.jsonObject(with: dataSelf,
-                           options: .mutableContainers) as? [String : Any] {
-            result = dic
-        }
-        return result
-    }
-    
     func toArray() -> Array<Any> {
         let jsonData: Data = self.data(using: .utf8)!
         let array = try? JSONSerialization.jsonObject(with: jsonData, options: .mutableLeaves)
