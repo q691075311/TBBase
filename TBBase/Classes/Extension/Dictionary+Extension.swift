@@ -22,14 +22,14 @@ extension Dictionary {
      }
     
     
-    public func AnyHashableTypeConversionStringType(_ anyHashableDic: [AnyHashable: Any]) -> [String: Any] {
-        let userInfoString = anyHashableDic.toJsonString()
-        let userInfoDic = userInfoString?.toDictionary()
-        if let dic = userInfoDic {
-            return dic
-        }else{
-            return [:]
-        }
-     }
+//    public func AnyHashableTypeConversionStringType(_ anyHashableDic: [AnyHashable: Any]) -> [String: Any] {
+//        let userInfoString = anyHashableDic.toJsonString()
+//        let userInfoDic = userInfoString?.toDictionary()
+//        if let dic = userInfoDic {
+//            return dic
+//        }else{
+//            return [:]
+//        }
+//     }
     
 }
