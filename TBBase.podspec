@@ -45,5 +45,6 @@ TODO: Add long description of the pod here.
   s.dependency 'RxCocoa'
   s.dependency 'Moya'
   s.dependency 'SVGKit'
+  s.prefix_header_contents = '#import "TBBaseCommon.h"'
   
 end
