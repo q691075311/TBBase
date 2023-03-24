@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import SVGKit
 
 public extension UIImage {
     

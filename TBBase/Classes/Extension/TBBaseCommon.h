@@ -8,6 +8,6 @@
 #ifndef TBBase_Example_Bridging_Header_h
 #define TBBase_Example_Bridging_Header_h
 //引入OC三方库
-#import <SVGKit/SVGKit.h>
+//#import <SVGKit/SVGKit.h>
 
 #endif /* TBBase_Example_Bridging_Header_h */

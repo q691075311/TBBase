@@ -44,7 +44,13 @@ TODO: Add long description of the pod here.
   s.dependency 'RxSwift'
   s.dependency 'RxCocoa'
   s.dependency 'Moya'
-  s.dependency 'SVGKit'
-  s.prefix_header_contents = '#import "TBBaseCommon.h"'
+#  s.dependency 'SVGKit'
+  s.dependency 'SVGKit', :modular_headers => true
+
+  
+#  s.prefix_header_contents = '#import "TBBaseCommon.h"'
+#  s.public_header_files = 'TBBase/**/*.h', 'TBBase/Pods/SVGKit/**/*.h'
+#  s.source_files = 'TBBase/**/*.swift', 'TBBase/Pods/SVGKit/**/*.m'
+
   
 end
