@@ -17,7 +17,7 @@ PODS:
   - SnapKit (5.6.0)
   - SVGKit (3.0.0):
     - CocoaLumberjack (~> 3.0)
-  - TBBase (1.0.7):
+  - TBBase (1.0.8):
     - Kingfisher
     - Moya
     - RxCocoa
@@ -54,8 +54,8 @@ SPEC CHECKSUMS:
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
   SVGKit: 1ad7513f8c74d9652f94ed64ddecda1a23864dea
-  TBBase: 69b0ed51a6387a1a572cf667544b91c5cd35e6ed
+  TBBase: 589da92d9e937604bad64e7801c51e8038622cb4
 
-PODFILE CHECKSUM: e34e8563ec0685400e1fed68e64f820985c0bd12
+PODFILE CHECKSUM: 61f029d77dacb6a29a01500fe5bbc84fb8f4e18c
 
 COCOAPODS: 1.11.3
