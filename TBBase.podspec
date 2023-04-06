@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TBBase'
-  s.version          = '1.1.0'
+  s.version          = '1.1.1'
   s.summary          = 'TBBase基础库'
 
 # This description is used to generate tags and improve search results.
@@ -44,7 +44,7 @@ TODO: Add long description of the pod here.
   s.dependency 'RxSwift'
   s.dependency 'RxCocoa'
   s.dependency 'Moya'
-  s.dependency 'SVGKit'
+#  s.dependency 'SVGKit'
 
   
 #  s.prefix_header_contents = '#import "TBBaseCommon.h"'
