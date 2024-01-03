@@ -44,6 +44,7 @@ TODO: Add long description of the pod here.
   s.dependency 'RxSwift'
   s.dependency 'RxCocoa'
   s.dependency 'Moya'
+  s.dependency 'HandyJSON'
 #  s.dependency 'SVGKit'
 
   

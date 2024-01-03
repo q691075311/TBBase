@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (5.6.4)
+  - HandyJSON (5.0.2)
   - Kingfisher (6.3.1)
   - Moya (15.0.0):
     - Moya/Core (= 15.0.0)
@@ -13,6 +14,7 @@ PODS:
   - RxSwift (6.5.0)
   - SnapKit (5.6.0)
   - TBBase (1.1.1):
+    - HandyJSON
     - Kingfisher
     - Moya
     - RxCocoa
@@ -25,6 +27,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
+    - HandyJSON
     - Kingfisher
     - Moya
     - RxCocoa
@@ -38,14 +41,15 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
   Kingfisher: 016c8b653a35add51dd34a3aba36b580041acc74
   Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
   RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
   RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
-  TBBase: df099a90a389f49b5f0e96e9d11bbc5ac1822504
+  TBBase: f6bb1ae7fea57bff399508fd6a4996c9ad263940
 
 PODFILE CHECKSUM: 61f029d77dacb6a29a01500fe5bbc84fb8f4e18c
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.13.0
